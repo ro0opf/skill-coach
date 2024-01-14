@@ -1,6 +1,7 @@
 import styles from "./Process.module.scss";
 import ic_email from "../../resources/ic_email.png";
 import ic_calendar from "../../resources/ic_calendar.png";
+import ic_feedback from "../../resources/ic_feedback.png";
 
 function Process() {
   const title = "진행 과정";
@@ -50,6 +51,7 @@ function Process() {
 
         <div className={styles.card}>
           <div className={styles.title_section}>
+            <img className={styles.title_image} src={ic_feedback} alt="icon" />
             <div className={styles.title}>{card_3_title}</div>
           </div>
           <div className={styles.h5} />

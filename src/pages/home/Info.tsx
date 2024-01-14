@@ -1,18 +1,19 @@
 import styles from "./Info.module.scss";
 import image_group from "../../resources/img_home_group.png";
 import { APPLY_LINK } from "../../Const";
+import { applyBoldStyle } from "../../utils/StringUtils";
 
 function Info() {
-  const title = " 현직자와 함께\n실무 면접을,\n스킬 코치";
+  const title = "**현직자**와 함께\n실무 면접을,\n**스킬 코치**";
   const subtitle =
     "네카라쿠배 현직자와 함께\n실제 면접처럼 연습하고 피드백을 받을 수 있는 기회!";
   const onApplyClick = () => {
-    window.location.href = APPLY_LINK;
+    window.open(APPLY_LINK, "_blank");
   };
 
   return (
     <div className={styles.main}>
-      <div className={styles.title}>{title}</div>
+      <div className={styles.title}>{applyBoldStyle(title)}</div>
 
       <div className={styles.h17}></div>
 

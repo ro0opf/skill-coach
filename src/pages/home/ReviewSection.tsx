@@ -1,8 +1,4 @@
 import styles from "./ReviewSection.module.scss";
-import ic_avatar_1 from "../../resources/ic_avatar_1.png";
-import ic_avatar_2 from "../../resources/ic_avatar_2.png";
-import ic_avatar_3 from "../../resources/ic_avatar_3.png";
-import ic_avatar_4 from "../../resources/ic_avatar_4.png";
 import isMobile from "../../utils/CommonUtils";
 
 function ReviewSection() {
