@@ -75,7 +75,8 @@
     .review_container{
         display: grid;
         grid-template-columns: auto;
-        width: 352px;
+        width: auto;
+        max-width: 352px;
         gap: 20px;
     }
 }
