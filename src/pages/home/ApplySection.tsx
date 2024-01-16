@@ -2,10 +2,15 @@ import { APPLY_LINK } from "../../Const";
 import isMobile from "../../utils/CommonUtils";
 import { applyBoldStyle } from "../../utils/StringUtils";
 import styles from "./ApplySection.module.scss";
+import { getAnalytics, logEvent } from "firebase/analytics";
+
 
 function ApplySection() {
   const title = "면접이 어려울땐\n **스킬 코치**";
   const onApplyClick = () => {
+    const analytics = getAnalytics();
+    logEvent(analytics, 'home_bottom_apply_click', {});
+
     window.open(APPLY_LINK, "_blank");
   };
 
