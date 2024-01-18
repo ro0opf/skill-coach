@@ -49,9 +49,9 @@ function CoachList() {
         </div>
       )}
 
-      <div className={styles.h50} />
+      {/* <div className={styles.h50} />
 
-      <div className={styles.coach_btn}>{coach_btn}</div>
+      <div className={styles.coach_btn}>{coach_btn}</div> */}
     </div>
   );
 }
