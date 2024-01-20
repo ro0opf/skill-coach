@@ -73,7 +73,7 @@ function Company() {
                         return (
                             <label onClick={() => onCompanyClick(company)}>
                                 <div className={`${styles.iconBox} ${checked ? styles.iconBoxChecked : ""}`}>
-                                    <img src={company.src} alt="icon" />
+                                    <img src={company.src} alt="icon" className={styles.companyLogo} />
                                     <span>{company.name}</span>
 
                                 </div>
