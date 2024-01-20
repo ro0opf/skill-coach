@@ -6,7 +6,7 @@ import Form from "./pages/form/Form";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/form' element={<Form />} />
