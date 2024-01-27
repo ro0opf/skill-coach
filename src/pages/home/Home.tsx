@@ -1,10 +1,11 @@
-import ApplySection from "./ApplySection";
+import Footer from "./Footer";
 import CoachList from "./CoachList";
 import Header from "./Header";
 import styles from "./Home.module.scss";
 import Info from "./Info";
 import Process from "./Process";
 import ReviewSection from "./ReviewSection";
+import ApplySection from "./ApplySection";
 
 function Home() {
   return (
@@ -13,12 +14,13 @@ function Home() {
       <div className={styles.h120} />
       <div className={styles.h35} />
       <Info />
+      <ApplySection />
       <Process />
       <CoachList />
       <div className={styles.h100} />
       <ReviewSection />
       <div className={styles.h100} />
-      <ApplySection />
+      <Footer />
       <div className={styles.h100} />
     </div>
   );
