@@ -1,28 +1,33 @@
 import Footer from "./Footer";
 import CoachList from "./CoachList";
 import Header from "./Header";
-import styles from "./Home.module.scss";
 import Info from "./Info";
 import Process from "./Process";
 import ReviewSection from "./ReviewSection";
-import ApplySection from "./ApplySection";
+import ApplySection from "./apply/ApplySection";
+import { styled } from "styled-components";
+import { Spacer } from "../../components/Spacer";
+
+const Container = styled.div`
+  background-color: #181818;
+`;
 
 function Home() {
   return (
-    <div className={styles.main}>
+    <Container>
       <Header />
-      <div className={styles.h120} />
-      <div className={styles.h35} />
+      <Spacer height="120px" />
+      <Spacer height="35px" />
       <Info />
       <ApplySection />
       <Process />
       <CoachList />
-      <div className={styles.h100} />
+      <Spacer height="100px" />
       <ReviewSection />
-      <div className={styles.h100} />
+      <Spacer height="100px" />
       <Footer />
-      <div className={styles.h100} />
-    </div>
+      <Spacer height="100px" />
+    </Container>
   );
 }
 
