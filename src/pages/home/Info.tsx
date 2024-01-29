@@ -14,7 +14,7 @@ function Info() {
     const targetElement = document.getElementById("applyForm");
     if (targetElement) {
       targetElement.scrollIntoView({
-        behavior: "smooth",
+        behavior: "auto",
       });
     }
   };
