@@ -13,14 +13,15 @@ function ReviewSection() {
             <div className={styles.author}>
               <div className={styles.author_info}>
                 <div className={styles.author_type}>백엔드 취준생</div>
-                <div>이*현</div>
+                <div>이*범</div>
               </div>
             </div>
             <div className={styles.h30} />
             <div className={styles.content}>
-              매니저님과 튜터님의 관리가 가장 인상적이었어요. 매니저님의 “카메라
-              킵시다!”라는 외침이 생각나네요.🙂 질문이 생겼을 때 상주하고 계신
-              튜터님께 언제든지 물어볼 수 있는 시스템이더라고요.
+              감사합니다! 정말 도움되는 면접이었습니다! 제가 이력서나 포트폴리오에 적었지만, 
+              생각하지 않았던 부분에서 질문 주셔서 너무 좋았고, cs질문 같은 경우도 어느정도 
+              깊게 들어와서 보완 할 점을 느꼈습니다. 그리고 마지막 피드백 때 , 보완 할 점을 알려주시고, 
+              면접 전에 고려해야 할 것, 그리고 요즘 면접 동향에 대해 알려주셔서 참고가 많이 되었습니다! 
             </div>
           </div>
 
@@ -28,14 +29,16 @@ function ReviewSection() {
             <div className={styles.author}>
               <div className={styles.author_info}>
                 <div className={styles.author_type}>프론트엔드 취준생</div>
-                <div>김*호</div>
+                <div>황*철</div>
               </div>
             </div>
             <div className={styles.h30} />
             <div className={styles.content}>
-              혼자 개발자 준비를 했다면 경험해 보기 어려운 인프라였어요.
-              튜터님이 가장 만족스러운 부분 중 하나예요. 실시간 강의를
-              해주셨는데 강의 분위기가 정말 좋았습니다.
+            너무 부드럽게 잘 물어봐주셔서 너무 좋았습니다. 태어나서 처음으로 기술면접을 했던
+            거라서 대답을 하면서도 스스로 아쉬운 점이 많이 묻어났는데, 어떤건 어느 수준으로
+            마무리하고 어떤건 더 보완하면 좋을지, 제가 어떤 부분을 강점으로 가져갈 수 
+            있을지 피드백 시간에 조언해주시는 부분도 좋았습니다.
+            부드럽게 잘 리드해주셔서 제가 포인트를 잡지 못한 부분도 떠올려서 뽑아낼 수 있었던 점이 매우 좋았습니다.
             </div>
           </div>
         </div>
@@ -45,14 +48,15 @@ function ReviewSection() {
             <div className={styles.author}>
               <div className={styles.author_info}>
                 <div className={styles.author_type}>백엔드 취준생</div>
-                <div>이*현</div>
+                <div>이*범</div>
               </div>
             </div>
             <div className={styles.h30} />
             <div className={styles.content}>
-              매니저님과 튜터님의 관리가 가장 인상적이었어요. 매니저님의 “카메라
-              킵시다!”라는 외침이 생각나네요.🙂 질문이 생겼을 때 상주하고 계신
-              튜터님께 언제든지 물어볼 수 있는 시스템이더라고요.
+              감사합니다! 정말 도움되는 면접이었습니다! 제가 이력서나 포트폴리오에 적었지만, 
+              생각하지 않았던 부분에서 질문 주셔서 너무 좋았고, cs질문 같은 경우도 어느정도 
+              깊게 들어와서 보완 할 점을 느꼈습니다. 그리고 마지막 피드백 때 , 보완 할 점을 알려주시고, 
+              면접 전에 고려해야 할 것, 그리고 요즘 면접 동향에 대해 알려주셔서 참고가 많이 되었습니다! 
             </div>
           </div>
 
@@ -60,14 +64,16 @@ function ReviewSection() {
             <div className={styles.author}>
               <div className={styles.author_info}>
                 <div className={styles.author_type}>프론트엔드 취준생</div>
-                <div>김*호</div>
+                <div>황*철</div>
               </div>
             </div>
             <div className={styles.h30} />
             <div className={styles.content}>
-              혼자 개발자 준비를 했다면 경험해 보기 어려운 인프라였어요.
-              튜터님이 가장 만족스러운 부분 중 하나예요. 실시간 강의를
-              해주셨는데 강의 분위기가 정말 좋았습니다.
+            너무 부드럽게 잘 물어봐주셔서 너무 좋았습니다. 태어나서 처음으로 기술면접을 했던
+            거라서 대답을 하면서도 스스로 아쉬운 점이 많이 묻어났는데, 어떤건 어느 수준으로
+            마무리하고 어떤건 더 보완하면 좋을지, 제가 어떤 부분을 강점으로 가져갈 수 
+            있을지 피드백 시간에 조언해주시는 부분도 좋았습니다.
+            부드럽게 잘 리드해주셔서 제가 포인트를 잡지 못한 부분도 떠올려서 뽑아낼 수 있었던 점이 매우 좋았습니다.
             </div>
           </div>
         </div>
