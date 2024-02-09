@@ -11,7 +11,7 @@ ChannelService.loadScript()
 
 ChannelService.boot({
   // write your plugin key  
-  "pluginKey":"",
+  "pluginKey":"52bce222-811d-4bb8-9d56-ecff2504be8e",
 });
 
 const firebaseConfig = {
