@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://unicornpeople.github.io/skill-coach/",
+  "homepage": "/skill-coach/#",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -24,6 +24,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
+    "postbuild": "cp build/index.html build/404.html",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
