@@ -126,8 +126,8 @@ function ApplySection() {
     setSelectedCompanys((prevSelectedOptions) =>
       prevSelectedOptions.includes(option)
         ? prevSelectedOptions.filter(
-            (selectedOption) => selectedOption !== option
-          )
+          (selectedOption) => selectedOption !== option
+        )
         : [...prevSelectedOptions, option]
     );
   };
@@ -138,8 +138,8 @@ function ApplySection() {
     setSelectedPositions((prevSelectedOptions) =>
       prevSelectedOptions.includes(option)
         ? prevSelectedOptions.filter(
-            (selectedOption) => selectedOption !== option
-          )
+          (selectedOption) => selectedOption !== option
+        )
         : [...prevSelectedOptions, option]
     );
   };
@@ -195,7 +195,7 @@ function ApplySection() {
       <div
         className={styles.submit}
         onClick={() =>
-          sendMessage(
+          (name.length < 1 || phoneNumber.length < 1) ? alert("정보를 전부 입력 해주세요") : sendMessage(
             buildMessage(selectedCompanys, selectedPositions, name, phoneNumber)
           )
         }
