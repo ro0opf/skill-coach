@@ -1,4 +1,3 @@
-import { APPLY_LINK } from "../../Const";
 import isMobile from "../../utils/CommonUtils";
 import { applyBoldStyle } from "../../utils/StringUtils";
 import styles from "./Footer.module.scss";
@@ -10,7 +9,12 @@ function Footer() {
     const analytics = getAnalytics();
     logEvent(analytics, "home_bottom_apply_click", {});
 
-    window.open(APPLY_LINK, "_blank");
+    const targetElement = document.getElementById("applyForm");
+    if (targetElement) {
+      targetElement.scrollIntoView({
+        behavior: "auto",
+      });
+    }
   };
 
   return (
